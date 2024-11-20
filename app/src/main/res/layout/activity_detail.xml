@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.HotelDetail">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/header_height_s"
+            >
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/hoteldetails_progressBar"
+                android:indeterminate="false"
+                android:indeterminateTintMode="src_atop"
+                android:indeterminateTint="@color/Dark_blue"
+                />
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true" />
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="bottom"
+                android:padding="15dip"
+                app:centered="true"
+                app:fillColor="@color/light_blue"
+                app:pageColor="@color/light_black"
+                app:strokeColor="@color/light_black"
+                app:radius="4dp"
+                app:snap="false" />
+
+        </RelativeLayout>
+        <com.phptravelsnative.utality.slidingTab.SlidingTabLayout
+            android:id="@+id/navig_tab"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_height"
+            android:background="@color/viewpager_background"
+            app:shouldExpand="true"
+            app:indicatorColor="@color/theme_color"
+            app:tabBackground="@layout/sliding_tab_view"
+            app:tabBackgroundTextViewId="@+id/tab_textview"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

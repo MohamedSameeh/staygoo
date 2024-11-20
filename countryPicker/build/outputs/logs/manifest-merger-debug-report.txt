@@ -1,0 +1,30 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:1:1-15:12
+INJECTED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:1:1-15:12
+	package
+		INJECTED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:3:5-30
+	xmlns:android
+		ADDED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:2:5-28
+uses-sdk
+ADDED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		ADDED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:7:9-38
+		INJECTED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:6:9-35
+		INJECTED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:9:5-13:19
+	android:label
+		ADDED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:11:9-41
+	android:allowBackup
+		ADDED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\Users\hp\Desktop\staygoo_app-master\countryPicker\src\main\AndroidManifest.xml:12:9-40

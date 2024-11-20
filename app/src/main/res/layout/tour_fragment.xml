@@ -1,0 +1,395 @@
+<com.phptravelsnative.utality.lib.Parallex.NotifyingScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    tools:context="com.phptravelsnative.Fragments.SecondScrollViewFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:showDividers="middle">
+
+        <include layout="@layout/header_placeholder" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shawdo_background"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/who"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/full_black"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/no"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/full_black"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                android:layout_weight="0.33"
+                android:textSize="15sp"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:layout_marginBottom="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/full_black"/>
+        </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="@color/light_black"
+                android:id="@+id/title_end"
+                android:layout_below="@+id/title"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title_adult"
+                android:layout_below="@id/title_end"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Adult$150"
+                    android:layout_weight="0.33"
+                    android:id="@+id/adult_rate_par"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:textColor="@color/full_black"/>
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="No."
+                    android:layout_weight="0.33"
+                    android:gravity="center"
+                    android:id="@+id/adult_spinner"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/full_black"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="$300"
+                    android:layout_weight="0.33"
+                    android:textSize="15sp"
+                    android:id="@+id/total_adult"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:textColor="@color/full_black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title_child"
+                android:layout_below="@id/title_adult"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Child$300"
+                    android:layout_weight="0.33"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:id="@+id/child_rate_par"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:textColor="@color/full_black"/>
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="No."
+                    android:layout_weight="0.33"
+                    android:gravity="center"
+                    android:id="@+id/child_spinner"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/full_black"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="$30"
+                    android:layout_weight="0.33"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:id="@+id/total_child"
+                    android:layout_marginBottom="25dp"
+                    android:textColor="@color/full_black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title_infants"
+                android:layout_below="@id/title_child"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Infants$300"
+                    android:layout_weight="0.33"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:id="@+id/inflants_rate_par"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:textColor="@color/full_black"/>
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="No."
+                    android:layout_weight="0.33"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/spinner_inflants"
+                    android:layout_marginBottom="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/full_black"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="$30"
+                    android:layout_weight="0.33"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:id="@+id/total_inflants"
+                    android:layout_marginBottom="25dp"
+                    android:textColor="@color/full_black"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "0.5dp"
+                android:layout_above="@+id/update_layout"
+                android:background="@color/light_black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:layout_marginStart="2dp"
+                android:id="@+id/update_layout"
+                android:background="@drawable/shawdo_background"
+                android:layout_below="@id/title_infants"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal"
+                    android:background="@drawable/shadow_left"
+                    android:id="@+id/check_in_layout"
+
+                    android:gravity="center"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_calender_from"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:text="@string/check_in"
+                            android:textColor="@color/full_black"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_weight="0.25"
+                            android:layout_height="0dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="22/22/2016"
+                                android:id="@+id/date_from"
+                                android:onClick="onUpdate"
+                                android:textColor="@color/light_blue"
+                                android:textSize="10sp"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/shadow_left"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:background="@color/light_blue"
+                        >
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="14sp"
+                            android:background="@drawable/ripple"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:id="@+id/onupdate"
+                            android:adjustViewBounds="true"
+                            android:text="@string/book"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/description"
+            android:textColor="@color/full_black"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/light_blue_transparent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/desc"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/payment_view"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/paymet_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/payment_options"
+                android:textColor="@color/full_black"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/light_blue_transparent" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/credit"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <ListView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:id="@+id/creditLeft"/>
+                <ListView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:id="@+id/creditRight"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/policy"
+            android:textColor="@color/full_black"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/light_blue_transparent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/policy"/>
+    </LinearLayout>
+
+
+
+</com.phptravelsnative.utality.lib.Parallex.NotifyingScrollView>

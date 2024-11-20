@@ -1,0 +1,70 @@
+<resources>
+    <!-- Custom Font Styles -->
+    <style name="TextViewCustomFont">
+        <item name="fontPath">fonts/OpenSans-Regular.ttf</item>
+    </style>
+
+    <style name="ButtonCustomStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="fontPath">fonts/Roboto-Bold.ttf</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="background">@drawable/ripple</item>
+    </style>
+
+    <style name="SpinnerCustomStyle" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="fontPath">fonts/Oswald-Stencbab.ttf</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/light_blue</item>
+    </style>
+
+    <style name="AutoCustomStyle" parent="Base.Widget.AppCompat.AutoCompleteTextView">
+        <item name="fontPath">fonts/Roboto-ThinItalic.ttf</item>
+        <item name="background">@color/white</item>
+        <item name="android:borderlessButtonStyle">@color/full_black</item>
+        <item name="colorControlNormal">@color/light_blue</item>
+        <item name="colorControlHighlight">@color/light_blue</item>
+    </style>
+
+    <!-- Main Application Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/white</item>
+
+        <!-- Map Custom Styles -->
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCustomStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerCustomStyle</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerCustomStyle</item>
+        <item name="android:textViewStyle">@style/TextViewCustomFont</item>
+        <item name="android:editTextStyle">@style/TextViewCustomFont</item>
+        <item name="android:buttonStyle">@style/ButtonCustomStyle</item>
+    </style>
+
+    <!-- Dialog Themes -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/iron</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <!-- Additional Themes (Add as needed) -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+</resources>

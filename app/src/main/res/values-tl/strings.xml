@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string name="navigation_drawer_close"></string>
+
+    <string name="booking">pagtataan</string>
+    <string name="hotesDescription">Perfect hotel para sa iyo</string>
+    <string name="hotels">HOTELS</string>
+    <string name="toursDescription">Live ang iyong buhay</string>
+    <string name="Tours">tOURS</string>
+    <string name="flightsDescription">flight Book on the go</string>
+    <string name="filghts">flight</string>
+    <string name="blogDescription">Basahin ang artikulo tungkol sa paglalakbay</string>
+    <string name="blog">Blog</string>
+    <string name="cars">CARS</string>
+
+
+    <string name="carsDescription">Hanapin ang iyong managinip kotse</string>
+    <string name="offersDescription">Kamangha-manghang deal arounds mo</string>
+    <string name="offers">MGA ALOK</string>
+    <string name="bookingDescription">Suriin ang iyong mga booking</string>
+    <string name="account_name">account</string>
+    <string name="login_register">Login / Magrehistro</string>
+    <string name="home">bahay</string>
+    <string name="contact">Makipag-ugnayan sa amin</string>
+    <string name="version">bersyon 1.0</string>
+    <string name="title_activity_sign_up">Pag-signup</string>
+    <string name="password">пароль</string>
+    <string name="email">Эл. адрес</string>
+    <string name="no_account">Еще нет учетной записи? Создай</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="create_account">Регистрация</string>
+    <string name="already_member">Уже участник? Авторизоваться</string>
+    <string name="lunch_discount">Обед со скидкой</string>
+
+
+    <string name="contacts">Contact</string>
+    <string name="langu">Mga Wika:</string>
+    <string name="hint_hotel">SEARCH FOR HOTEL OR LOCATION</string>
+    <string name="hint_tour">SEARCH FOR TOUR OR LOCATION</string>
+    <string name="check_in">CHECK IN</string>
+    <string name="check_out">TIGNAN MO</string>
+    <string name="child">CHILD</string>
+    <string name="adult">ADULT</string>
+    <string name="search">Поиск</string>
+    <string name="update">UPDATE</string>
+    <string name="book">КНИГА</string>
+    <string name="description">Описание</string>
+    <string name="amenities">Удобства</string>
+    <string name="payment_options">Варианты оплаты</string>
+    <string name="policy">политика</string>
+    <string name="map">карта</string>
+    <string name="overview">ОБЗОР</string>
+    <string name="rooms">НОМЕРА</string>
+    <string name="reviews">ОБЗОРЫ</string>
+    <string name="related">СВЯЗАННЫЙ</string>
+    <string name="rating">Рейтинг:</string>
+    <string name="price">Цена:</string>
+    <string name="avg_night">Средняя / Ночь</string>
+    <string name="logout">Выйти</string>
+    <string name="name">имя</string>
+    <string name="subject">Предмет</string>
+    <string name="message">Сообщение</string>
+    <string name="hotel_title">Поиск отелей</string>
+    <string name="to">К</string>
+    <string name="location_from">МЕСТО ИЗ</string>
+    <string name="location_to">&quot;МЕСТО ДЛЯ&quot;</string>
+    <string name="tour_type">ТУР ТИП</string>
+    <string name="loading">ГРУЖЕНОЕ ПУНКТЫ ПОЖАЛУЙСТА ПОДОЖДИТЕ</string>
+    <string name="select_car">ВЫБОР АВТО</string>
+    <string name="pick_up">ВЫБРАТЬ МЕСТО</string>
+    <string name="date">ДАТА</string>
+    <string name="time">ВРЕМЯ</string>
+    <string name="dropoff_location">Dropoff МЕСТО</string>
+    <string name="send">ОТПРАВИТЬ</string>
+    <string name="call">ВЫЗОВ</string>
+    <string name="invoice_hint">ВВЕДИТЕ НОМЕР СЧЕТ</string>
+    <string name="invc_code">ВВЕДИТЕ КОД СЧЕТ</string>
+    <string name="txt_coupon">Есть ли у Вас есть код купона?</string>
+    <string name="etr_coupon_hint">Введите свой номер купона</string>
+    <string name="apply">Подать заявление</string>
+    <string name="conti">ПРОДОЛЖАТЬ</string>
+    <string name="proceed">ПЕРЕЙТИ</string>
+    <string name="who">КТО?</string>
+    <string name="no">НЕТ.</string>
+    <string name="about">Около</string>
+    <string name="tour_title">ПОИСК ТУРОВ</string>
+    <string name="deposite_now">Deposite сейчас</string>
+    <string name="hotel_avail">Отель Не имеется в этом месте</string>
+    <string name="login">Авторизоваться</string>
+    <string name="guest">ГОСТЬ</string>
+    <string name="coupon">КУПОН</string>
+    <string name="address">Адрес</string>
+    <string name="room_not_available">КОМНАТА НЕ ИМЕЕТСЯ</string>
+    <string name="pickup">ПОДБИРАТЬ</string>
+    <string name="dropoff">Выполаживание</string>
+    <string name="inclusion">INCLUSIONS</string>
+    <string name="Exclusion">ИСКЛЮЧЕНИЯ</string>
+    <string name="inflant">дети</string>
+    <string name="detail">ДЕТАЛЬ</string>
+    <string name="my_booking">Мои заказы</string>
+    <string name="registration">Постановка на учет</string>
+    <string name="setting">НАСТРОЙКИ</string>
+    <string name="city">ГОРОД</string>
+    <string name="postal_code">Почтовый индекс</string>
+    <string name="state">состояние</string>
+    <string name="card_number">Номер карты</string>
+    <string name="card_cw">CVV Card</string>
+    <string name="sending">Отсылаю ...</string>
+
+
+    <string name="navigation_drawer_open"></string>
+
+
+    <string name="authenticating">Authenticating...</string>
+    <string name="retry">Retry</string>
+    <string name="coupon_applied">Coupon Applied Successfully</string>
+    <string name="my_account">My Account</string>
+    <string name="profile">PROFILE</string>
+    <string name="check_invoice">ตรวจสอบใบแจ้งหนี้</string>
+    <string name="address_2">address 2</string>
+    <string name="book_now">BOOK NGAYON</string>
+    <string name="checkIn_number">27</string>
+    <string name="confirm_password">kumpirmahin ang Password</string>
+    <string name="cvv_number">CVV Number Kailangan ay Greater mula sa 3 number</string>
+    <string name="empty_car">CARS HINDI NATAGPUAN MANGYARING BAGUHIN ANG IYONG LOCARION</string>
+    <string name="empty_offers">Ay nag-aalok HINDI NATAGPUAN MANGYARING BAGUHIN ANG IYONG LOCARION</string>
+    <string name="empty_tour">TOURS HINDI NATAGPUAN MANGYARING BAGUHIN ANG IYONG LOCARION</string>
+    <string name="error_api">Error Sa Api</string>
+    <string name="exit">lumabas</string>
+    <string name="hint_hotel_ex">\"SEARCH FOR LOCATION\"</string>
+    <string name="or">----- OR -----</string>
+    <string name="next">NEXT STEP</string>
+    <string name="room">kuwarto</string>
+    <string name="spefiy_date">Mangyaring Tukuyin Date</string>
+    <string name="submit">Ipasa</string>
+    <string name="tax_amp_vat">Tax and Vat</string>
+    <string name="select_country">Select Country</string>
+
+</resources>

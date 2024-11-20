@@ -1,0 +1,570 @@
+[
+    {
+        "outputFile": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\YAMAMA\\countryPicker\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\YAMAMA\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 47,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\YAMAMA\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 47,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 152,
+                    "endColumn": 50,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\YAMAMA\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 50,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 6090,
+                    "endOffset": 6289
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\YAMAMA\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 6090,
+                        "endOffset": 6289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 6294,
+                    "endColumn": 42,
+                    "endOffset": 6332
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\YAMAMA\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 6294,
+                        "endColumn": 42,
+                        "endOffset": 6332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 6337,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 6623
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\YAMAMA\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 6337,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 6623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 6628,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 6783
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\YAMAMA\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 6628,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 6783
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/apple/Desktop/CLIENTS/PHPTRAVELS/countryPicker/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/PHPTRAVELS/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 47,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/PHPTRAVELS/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 47,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 152,
+                    "endColumn": 50,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/PHPTRAVELS/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 50,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 6090,
+                    "endOffset": 6289
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/PHPTRAVELS/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 6090,
+                        "endOffset": 6289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 6294,
+                    "endColumn": 42,
+                    "endOffset": 6332
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/PHPTRAVELS/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 6294,
+                        "endColumn": 42,
+                        "endOffset": 6332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 6337,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 6623
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/PHPTRAVELS/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 6337,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 6623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 6628,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 6783
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/PHPTRAVELS/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 6628,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 6783
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/apple/Desktop/CLIENTS/YAMAMA/countryPicker/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 47,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 47,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 152,
+                    "endColumn": 50,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 50,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 6090,
+                    "endOffset": 6289
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 6090,
+                        "endOffset": 6289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 6294,
+                    "endColumn": 42,
+                    "endOffset": 6332
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 6294,
+                        "endColumn": 42,
+                        "endOffset": 6332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 6337,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 6623
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 6337,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 6623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 6628,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 6783
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/countryPicker/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 6628,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 6783
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\PHPTRAVELS\\countryPicker\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\PHPTRAVELS\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 47,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\PHPTRAVELS\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 47,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 152,
+                    "endColumn": 50,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\PHPTRAVELS\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 50,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 6090,
+                    "endOffset": 6289
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\PHPTRAVELS\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 6090,
+                        "endOffset": 6289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 6294,
+                    "endColumn": 42,
+                    "endOffset": 6332
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\PHPTRAVELS\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 6294,
+                        "endColumn": 42,
+                        "endOffset": 6332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 6337,
+                    "endLine": 13,
+                    "endColumn": 12,
+                    "endOffset": 6623
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\PHPTRAVELS\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 6337,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 6623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 6628,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 6783
+                },
+                "from": {
+                    "file": "/Users/apple/Desktop/CLIENTS/YAMAMA/C:\\Users\\Yoga\\Desktop\\PHPTRAVELS\\countryPicker\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 6628,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 6783
+                    }
+                }
+            }
+        ]
+    }
+]

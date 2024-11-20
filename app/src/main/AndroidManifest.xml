@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Hardware Features -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <!-- Permissions for Internet, Network, Calls, and Location -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="com.phptravelsnative.utality.Extra.CalligraphyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Meta-data for Google Services -->
+<!--        <meta-data-->
+<!--            android:name="com.google.android.geo.API_KEY"-->
+<!--            android:value="@string/google_maps_key" />-->
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.version"-->
+<!--            android:value="@integer/google_play_services_version" />-->
+
+        <!-- Splash Activity (Main Launcher) -->
+        <activity
+            android:name="com.phptravelsnative.Activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- App Activities -->
+        <activity
+            android:name="com.phptravelsnative.Activities.MainLayout"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.Drawer"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.ExpediaCongratulations"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.SearchingHotels"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.HotelDetail"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.ExpediaDetail"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.Invoice"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.Card"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.CarDetail"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.FullscreenImages"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.OffersDetails"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.SearchingCarTourOffers"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.TourDetail"
+            android:exported="false" />
+        <activity
+            android:name="com.phptravelsnative.Activities.WebViewInvoice"
+            android:exported="false" />
+    </application>
+</manifest>

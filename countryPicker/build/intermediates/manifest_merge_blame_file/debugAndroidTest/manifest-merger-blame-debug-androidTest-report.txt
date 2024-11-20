@@ -1,0 +1,42 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.countrypicker.test" >
+4
+5    <uses-sdk
+5-->C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9007089137263469765.xml:5:5-74
+6        android:minSdkVersion="17"
+6-->C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9007089137263469765.xml:5:15-41
+7        android:targetSdkVersion="17" />
+7-->C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9007089137263469765.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9007089137263469765.xml:11:5-15:72
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9007089137263469765.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9007089137263469765.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9007089137263469765.xml:13:22-53
+13        android:label="Tests for com.countrypicker.test"
+13-->C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9007089137263469765.xml:15:22-70
+14        android:targetPackage="com.countrypicker.test" />
+14-->C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9007089137263469765.xml:12:22-68
+15
+16    <application
+16-->C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9007089137263469765.xml:7:5-9:19
+17        android:allowBackup="true"
+17-->[:countryPicker] C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\d4b3d3ebd463c2820c1ae051d063c290\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="true"
+21        android:label="@string/app_name"
+21-->[:countryPicker] C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-41
+22        android:theme="@style/AppTheme" >
+22-->[:countryPicker] C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-40
+23        <uses-library android:name="android.test.runner" />
+23-->C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9007089137263469765.xml:8:9-60
+23-->C:\Users\hp\Desktop\staygoo_app-master\countryPicker\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9007089137263469765.xml:8:23-57
+24    </application>
+25
+26</manifest>

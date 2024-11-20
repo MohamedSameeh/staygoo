@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="35dp"
+    android:layout_marginEnd="35dp"
+    android:orientation="vertical"
+    tools:context="com.phptravelsnative.Fragments.Coupon">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp"
+        android:text="@string/txt_coupon" />
+
+    <EditText
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/primary_dark"
+        android:id="@+id/coupon_code"
+        android:inputType="textEmailAddress"
+        android:hint="@string/etr_coupon_hint"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:text="@string/apply"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:id="@+id/verifyCode"
+            android:textColor="@color/white"
+            android:background="@drawable/ripple"
+            />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/hide"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:text="@string/or"
+        />
+    <Button
+
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:text="@string/conti"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ripple"
+        android:id="@+id/continueCode"
+        android:onClick="onClickButton"
+        />
+    </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

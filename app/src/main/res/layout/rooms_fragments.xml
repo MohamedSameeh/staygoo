@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.phptravelsnative.utality.lib.Parallex.NotifyingScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    tools:context="com.phptravelsnative.Fragments.SecondScrollViewFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    >
+    <include layout="@layout/header_placeholder" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.33"
+                android:orientation="horizontal"
+                android:background="@drawable/shadow_left"
+                android:id="@+id/check_in_layout"
+
+                android:gravity="center"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_calender_from"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="@string/check_in"
+                        android:textColor="@color/full_black"
+                    />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_weight="0.25"
+                        android:layout_height="0dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="22/22/2016"
+                            android:id="@+id/date_from"
+                            android:textColor="@color/light_blue"
+                            android:textSize="10sp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.35"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/shadow_left"
+                android:id="@+id/check_text_out"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_calender_from"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/check_out"
+                        android:textSize="15sp"
+                        android:textColor="@color/full_black"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:id="@+id/check_out_layout"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:id="@+id/date_to"
+                            android:text="11"
+                            android:textColor="@color/light_blue"
+                            android:textSize="10sp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.32"
+                android:background="@drawable/shadow_left"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="@color/light_blue"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="14sp"
+                        android:background="@drawable/ripple"
+                        android:gravity="center"
+                        android:id="@+id/update"
+                        android:textColor="@color/white"
+                        android:adjustViewBounds="true"
+                        android:text="@string/update"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/emptyList"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/room_not_available"
+        android:textSize="25sp" />
+
+
+        <ListView
+            android:id="@+id/room_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:scrollbars="none"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            />
+</LinearLayout>
+
+    </com.phptravelsnative.utality.lib.Parallex.NotifyingScrollView>

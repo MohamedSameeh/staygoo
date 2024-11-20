@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/main_layout_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/main_layout"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".33">
+
+            <RelativeLayout
+                android:id="@+id/card_preview_back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/card_gradient" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:id="@+id/hide_cvc"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight=".47"
+                        android:background="@drawable/slash_slash_gradiet" />
+
+                    <TextView
+                        android:id="@+id/card_preview_cvc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_toRightOf="@+id/hide_cvc"
+                        android:layout_weight=".1"
+                        android:hint="CCV"
+                        android:text="CCV"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/card_preview_front"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/card_gradient" />
+
+                <TextView
+                    android:id="@+id/card_preview_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="35dp"
+                    android:hint="Name Of Card"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff" />
+
+                <TextView
+                    android:id="@+id/card_preview_expiry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="35dp"
+                    android:hint="Expiry Date"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff" />
+
+                <TextView
+                    android:id="@+id/card_preview_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/card_preview_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:gravity="top|center_horizontal"
+                    android:hint="XXXX XXXX XXXX XXXX"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".7">
+
+            <RelativeLayout
+                android:id="@+id/payment_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/payment_amount_holder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginTop="5dp"
+                    android:text="Payment Amount"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/payment_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="sans-serif"
+                    android:paddingRight="10dp"
+                    android:text="$500.00"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:id="@+id/card_type"
+                android:layout_below="@+id/payment_amount_layout"
+                android:layout_height="wrap_content">
+
+
+                <com.phptravelsnative.utality.Views.TourSpinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credit Card"
+                    android:id="@+id/tour_type"
+                    android:visibility="gone"
+                    app:type="card"
+                    android:paddingEnd="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:layout_centerVertical="true"
+                    android:textSize="17sp"
+                    android:tag="0"
+
+                    android:background="@android:color/transparent"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:adjustViewBounds="true"
+                    android:layout_toEndOf="@+id/tour_type"
+                    android:id="@+id/tour_icon"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_action_name"
+                    />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/card_name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/card_type"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/background_edit_btn"
+                android:hint="Name of Card"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingLeft="15dp" />
+
+            <EditText
+                android:id="@+id/card_number"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/card_name"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/background_edit_btn"
+                android:hint="Card Number"
+                android:inputType="phone"
+                android:lines="1"
+                android:maxLength="19"
+                android:maxLines="1"
+                android:paddingLeft="15dp" />
+
+            <LinearLayout
+                android:id="@+id/expiry_date_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_number"
+                android:layout_marginTop="15dp"
+                android:weightSum="1">
+
+                <EditText
+                    android:id="@+id/expiry_date"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/card_name"
+                    android:layout_weight=".50"
+                    android:background="@drawable/background_edit_btn"
+                    android:hint="Expiry Date"
+                    android:inputType="phone"
+                    android:lines="1"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:maxLines="1"
+                    android:paddingLeft="15dp" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".05" />
+
+                <EditText
+                    android:id="@+id/cvc"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight=".45"
+                    android:background="@drawable/background_edit_btn"
+                    android:hint="CCV"
+                    android:inputType="phone"
+                    android:lines="1"
+                    android:maxLength="3"
+                    android:maxLines="1"
+                    android:paddingLeft="15dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/book"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:background="#2E3192"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:text="BOOK"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>

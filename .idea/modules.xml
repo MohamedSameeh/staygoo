@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/staygoo_app-master.iml" filepath="$PROJECT_DIR$/.idea/modules/staygoo_app-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/staygoo_app-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/staygoo_app-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/staygoo_app-master.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/staygoo_app-master.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/staygoo_app-master.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/staygoo_app-master.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/staygoo_app-master.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/staygoo_app-master.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countryPicker/staygoo_app-master.countryPicker.iml" filepath="$PROJECT_DIR$/.idea/modules/countryPicker/staygoo_app-master.countryPicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countryPicker/staygoo_app-master.countryPicker.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/countryPicker/staygoo_app-master.countryPicker.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countryPicker/staygoo_app-master.countryPicker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/countryPicker/staygoo_app-master.countryPicker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countryPicker/staygoo_app-master.countryPicker.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/countryPicker/staygoo_app-master.countryPicker.unitTest.iml" />
+    </modules>
+  </component>
+</project>

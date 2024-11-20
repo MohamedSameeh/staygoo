@@ -1,0 +1,28 @@
+<com.phptravelsnative.utality.lib.Parallex.NotifyingScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/scrollview"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true"
+android:scrollbars="none"
+android:layout_marginLeft="6dp"
+android:layout_marginRight="6dp"
+tools:context="com.phptravelsnative.Fragments.Map">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <include layout="@layout/header_placeholder" />
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+</com.phptravelsnative.utality.lib.Parallex.NotifyingScrollView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_error_expedia"
+                android:id="@+id/iv_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_icon"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:layout_marginTop="12sp"
+                android:id="@+id/your_booking"
+                android:textColor="@color/full_black"
+                android:text="Your Booking Status Is"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/your_booking"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12sp"
+                android:textSize="25sp"
+                android:id="@+id/confirmed"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:text="Not Confirmed"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/confirmed"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:id="@+id/categroy"
+                android:textColor="@color/full_black"
+                android:text="category: DATA_VALIDATION"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/categroy"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:id="@+id/presentationMessage"
+                android:textColor="@color/full_black"
+                android:text="Total Nightly Rate: USD 353.66"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/presentationMessage"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:id="@+id/verboseMessage"
+                android:textColor="@color/full_black"
+                android:text="Total Amount : USD424.40 (including Taxes and fees)"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:text="OK"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/close"
+                android:background="@color/Dark_blue"
+                />
+        </RelativeLayout>
+</ScrollView>
+
